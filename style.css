@@ -1,0 +1,89 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.card{
+    max-width: 470px;;
+    width: 90%;
+    color: #fff;
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+    border-radius: 10px;
+    margin : 100px auto 0;
+    padding: 40px 35px;
+    text-align: center;
+    position : relative;
+    
+}
+
+.display{
+    
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgba(35, 28, 28, 0.525);
+    padding-bottom: 10px;
+    border-radius: 20px ;
+}
+
+.life{
+    border: 1px solid rgba(67, 63, 63, 0.177);
+    border-radius: 10px;
+    height: 40%;
+    width: 70%;
+    padding: 5px;
+    /* align-items: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: red;
+}
+.result img{
+    height: 40px;
+}
+
+.resultText{
+    font-size: 15px;
+    font-weight: 900px;
+    font-style: bolder;
+}
+.choose{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+/* .choose img{
+    height: 60px;
+    cursor: pointer;
+    
+} */
+.choose input{
+    height: 60px;
+    cursor: pointer;
+    
+}
+
+.choose p{
+    color: black;
+    font-size: 18px;
+    text-shadow:2px 1px rgba(41, 39, 39, 0.297);
+}
+
+.heading2 h2{ 
+    color: rgb(50, 64, 16);
+    text-shadow:2px 1px rgba(41, 39, 39, 0.179);
+}
+.choose button{
+    background-color: rgba(56, 53, 50, 0);
+    
+    border-color: rgba(65, 65, 60, 0);
+}
