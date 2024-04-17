@@ -5,7 +5,7 @@ const displayResult = document.querySelector(".resultText")
 
 const MainFunction = function (optionId) {
     // const option = document.querySelector(".choose button")
-    let correctChoice = ((Math.random().toFixed(0)*10)+1)%3;
+    let correctChoice = (Math.round(Math.random()*10))%3;
     switch (correctChoice) {
         case 0:
             displayIcon.src = "Assests/Rock.png"
